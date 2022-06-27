@@ -45,6 +45,8 @@ Competitors will be provided with the target device either by having it purchase
 -   Submission must run on Android 12 (API level 32).
 -   MSM must be over BLS12-377 G1 with scalars from the associated field.
 -   Submissions may take advantage of any hardware features of the target device (Samsung Galaxy A13 5G).
+    - E.g. The SoC in the A13 5G can run 32-bit and 64-bit instruction sets. Submissions may use any
+        supported instruction set for their implementation.
 -   Submissions may be written in any programming language.
 -   If competitors create their own test harness, it must be determined by the judges to be running a benchmark equivalent to the provided test harness.
 -   Submissions must not cause stability issues when run on the target device.
@@ -60,6 +62,11 @@ June 10 - Competition begins
 July 25 - Mid-competition submission due
 
 September 10 - Final submission due
+
+## Mid-competition Submission
+
+By July 25th, competitors may submit a working version of their final submission. If they do, the
+judging team will give it a look to ensure it fulfills all the constraints 
 
 ## Judging
 
