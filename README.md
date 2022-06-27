@@ -36,9 +36,15 @@ $$Q=\sum^n_{i=1} k_i*P_i$$
 
 -   All submissions will be tested on the [Samsung Galaxy A13 5G](https://www.devicespecifications.com/en/model/46da57d2) ([SoC MediaTek Dimensity 700 (MT6833)](https://www.mediatek.com/products/smartphones-2/dimensity-700)).
 -   The baseline will be the Arkworks MSM implementation over BLS12-377 G1. Submissions must beat this baseline by at least 10% in order to be eligible for the prize.
--   The baseline Android application including a test harness will be provided, and may be used by competitors as the basis for their submission. Competitors may create their own application and test harness.
+-   The baseline Android application including a [test harness] is provided, and may be used by competitors as the basis for their submission. Competitors may create their own application and test harness.
+
+[test harness]: https://github.com/celo-org/zprize-mobile-harness
 
 Competitors will be provided with the target device either by having it purchased for them and sent to their address, or by being reimbursed for their purchase. Teams with at least two members may request two devices.
+
+The test harness, which includes benchmarking code and will be used as the baseline implementation
+for judging, is available at
+[github.com/celo-org/zprize-mobile-harness](https://github.com/celo-org/zprize-mobile-harness).
 
 ### Constraints
 
@@ -63,10 +69,21 @@ July 25 - Mid-competition submission due
 
 September 10 - Final submission due
 
-## Mid-competition Submission
+### Mid-competition Submission
+
+The mid-competition submission give an opportunity for competitors to confirm they're submission
+meets all the requirements and get a score according the official judging procedure. Competitors
+are not required to submit their work for the mid-competition submission.
 
 By July 25th, competitors may submit a working version of their final submission. If they do, the
-judging team will give it a look to ensure it fulfills all the constraints 
+judging team will give it a look to ensure it fulfills all the constraints. If so, they will run the
+submission using the same benchmarking procedure that will be used for judging, as outlined below,
+and report the result. If there are any issues, the judging team will work to resolve them with the
+competitor.
+
+Submissions do not need to be open-sourced for the mid-competition submission, but the source code
+does need to be shared with the judging team, who will compile the application from source following
+the same procedure as will be used for the final submission.
 
 ## Judging
 
@@ -76,7 +93,7 @@ All submissions are required to be open-sourced. The judging team will review th
 
 ### Correctness
 
-A collection of static test vectors will be provided as a file, and the submitted application should include functionality to load and run the test vectors as a basic correctness test. Test vectors will include instances of various sizes and some important edge cases. The provided test harness will include this functionality and may be used as a reference. The judges will validate that these test vectors are correctly included and will validate the results.
+A collection of static test vectors will be provided as a file, and the submitted application should include functionality to load and run the test vectors as a basic correctness test. Test vectors will include instances of various sizes and some important edge cases. The provided test harness includes this functionality and may be used as a reference. The judges will validate that these test vectors are correctly included and will validate the results.
 
 Additionally, the prize committee will sample at least 10 randomly chosen MSM instances and supply them to the application through a new test vector file. MSM instances in the test vectors will be of various sizes. The results will be compared to the result as computed in a separate MSM implementation, such as the arkworks library.
 
@@ -88,7 +105,7 @@ Each trial must sample 2^16 elements and scalars at random from BLS12-377 G1 and
 
 A number of trials will be conducted until a stable Mean Latency is confidently estimated for the submission. At a minimum, this will be 1000 trials. Additional trials may be conducted if a stable mean is not observed.
 
-The provided test harness template will include an implementation for the benchmarking procedure described above, and should be used by competitors as a reference.
+The provided test harness template includes an implementation for the benchmarking procedure described above, and should be used by competitors as a reference.
 
 All trials for the final judging will be conducted on a single target device, at full charge, plugged in, and placed in airplane mode. All reasonable efforts will be made to ensure a consistent judging environment for all submissions.
 
