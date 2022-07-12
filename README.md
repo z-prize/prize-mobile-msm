@@ -57,6 +57,8 @@ for judging, is available at
         take advantage of this layout to optimize their computations.
 -   Submissions may be written in any programming language.
 -   If competitors create their own test harness, it must be determined by the judges to be running a benchmark equivalent to the provided test harness.
+    - Note that the input to the MSM routine are arkworks representations of `bls377::G1Affine` and `<bls377::Fr as PrimeField>::BigInt` at version `0.3.0`.
+      If you would like to use a different representation, you should contact the judging team to determine if it is permissible.
 -   Submissions must not cause stability issues when run on the target device.
 -   Submissions must not require the device to be rooted (i.e. it must be possible to integrate the solution into an app on the Google Play Store, although competitors do not need to do so for the competition).
 -   Submissions must include documentation, in English, to understand the optimization approach.
