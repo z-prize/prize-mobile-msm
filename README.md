@@ -65,9 +65,9 @@ for judging, is available at
 
 June 10 - Competition begins
 
-July 25 - Mid-competition submission due
+August 4 - Mid-competition submission due
 
-September 10 - Final submission due
+October 1 - Final submission due
 
 ### Mid-competition Submission
 
