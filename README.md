@@ -111,8 +111,11 @@ All trials for the final judging will be conducted on a single target device, at
 
 ## Prize Allocation
 
-Prizes will be distributed from the total Prize Reward according to a Rank-Weighted Performance-based scoring system. The baseline score of each competitor's solution will be measured in Mean Latency as described above, and will be used to determine the rank of the competitors, with the lowest Mean Latency resulting in the 1st rank. In order to calculate the prize share, the multicative inverse of the Mean Latency will be used as a weighting score for each qualifying submission (i.e. submissions that pass all constraints, including beating the baseline by at least 10%). Additionally, a Rank-Based multiplier will be applied to each competitor's Inverse Latency to determine their final score and resulting Prize Payout. The final Prize Payout will be determined as the submission Inverse Latency, divided by the sum of the Inverse Latencies for all qualifying submissions, and multiplied by the Rank Multipliers.
-
+Prizes will be distributed from the total Prize Reward according to a Rank-Weighted Performance-based scoring system.
+The baseline score of each competitor's solution will be measured in Mean Latency as described above, and will be used to determine the rank of the competitors, with the lowest Mean Latency resulting in the 1st rank.
+In order to calculate the prize share, the multiplicative inverse of the Mean Latency will be used as a weighting score for each qualifying submission (i.e. submissions that pass all constraints, including beating the baseline by at least 10%).
+Additionally, a Rank-Based multiplier will be applied to each competitor's Inverse Latency to determine their final score and resulting Prize Payout.
+The final Prize Payout will be determined as the submission Inverse Latency, divided by the sum of the Inverse Latencies for all qualifying submissions, and multiplied by the Rank Multipliers.
 
 **Baseline Latency: 3000 ms**
 
@@ -120,19 +123,25 @@ Prizes will be distributed from the total Prize Reward according to a Rank-Weigh
 
 |  | RANK | Latency | Rank Multiplier | Weighted Score | Prize Share | Prize Payout |
 |--|--|--|--|--|--|--|
-| Alice | 1st | 1400 | 4x | 4/1400 | .60 | $225,869 |
-| Bob | 2nd | 2200 | 2x | 2/2200 | .19 | $71,867 |
-| Carrol | 3rd | 2500 | 1.5x | 1.5/2500 | .13 | $47,432 |
-| Dave | 4th | 2650 | 1x | 1/2650 | .08 | $29,832 |
-| Eve | 5th | 2900 | 1x | 0 (did not qualify) | 0 | $0 |
+| Alice | 1st | 1400 | 8x | 4/1400 | .622 | $233,249 |
+| Bob | 2nd | 2200 | 5x | 2/2200 | .247 | $92,769 |
+| Carrol | 3rd | 2500 | 3x | 1/2500 | .131 | $48,982 |
+| Dave | 4th | 2650 | 0x | 1/2650 | .00 | $0 |
+| Eve | 5th | 2900 | 0x | 0 (did not qualify) | 0 | $0 |
 | SUM |  |  |  |  |  | $375,000 |
 
 - Weighted Score =  Inverse Latency *  Rank Multiplier[1]
 - Prize Share  =  Weighted Score / SUM of  all Weighted Scores
 - Prize Payout  =  Prize Share  * Total Prize Reward
 
-Baseline Latency mentioned above is an example, and not the value that will be used. Please note that prize sponsors reserve the right to in good faith reduce or increase a competitors score if doing so falls within the spirit of discouraging “loophole” solutions that are useless to the goals of the prize and in encouraging solutions that are particularly novel or creative. The Rank Multipliers to be used will not be finalized until the number of competitors is finalized, but will be chosen to enable a distribution curve roughly proportional to the example shown given the solutions provided.
+Baseline Latency mentioned above is an example, and not the value that will be used.
+Please note that prize sponsors reserve the right to in good faith reduce or increase a competitors score if doing so falls within the spirit of discouraging “loophole” solutions that are useless to the goals of the prize and in encouraging solutions that are particularly novel or creative.
 
+Finalized Rank Multipliers will be as follows:
+* 8x for 1st place
+* 5x for 2nd place
+* 3x for 3rd place
+* 0x for 4th place and below
 
 ## Notes
 
