@@ -53,6 +53,8 @@ for judging, is available at
 -   Submissions may take advantage of any hardware features of the target device (Samsung Galaxy A13 5G).
     - E.g. The SoC in the A13 5G can run 32-bit and 64-bit instruction sets. Submissions may use any
         supported instruction set for their implementation.
+    - E.g. This device also has 8 cores in a 2.6 BIG.little architecture. Optimizations may
+        take advantage of this layout to optimize their computations.
 -   Submissions may be written in any programming language.
 -   If competitors create their own test harness, it must be determined by the judges to be running a benchmark equivalent to the provided test harness.
 -   Submissions must not cause stability issues when run on the target device.
