@@ -123,14 +123,14 @@ The final Prize Payout will be determined as the submission Inverse Latency, div
 
 |  | RANK | Latency | Rank Multiplier | Weighted Score | Prize Share | Prize Payout |
 |--|--|--|--|--|--|--|
-| Alice | 1st | 1400 | 8x | 4/1400 | .622 | $233,249 |
-| Bob | 2nd | 2200 | 5x | 2/2200 | .247 | $92,769 |
-| Carrol | 3rd | 2500 | 3x | 1/2500 | .131 | $48,982 |
-| Dave | 4th | 2650 | 0x | 1/2650 | .00 | $0 |
+| Alice | 1st | 1400 | 8x | 8/1400 | .622 | $233,249 |
+| Bob | 2nd | 2200 | 5x | 5/2200 | .247 | $92,769 |
+| Carrol | 3rd | 2500 | 3x | 3/2500 | .131 | $48,982 |
+| Dave | 4th | 2650 | 0x | 0/2650 | 0 | $0 |
 | Eve | 5th | 2900 | 0x | 0 (did not qualify) | 0 | $0 |
 | SUM |  |  |  |  |  | $375,000 |
 
-- Weighted Score =  Inverse Latency *  Rank Multiplier[1]
+- Weighted Score =  Inverse Latency *  Rank Multiplier
 - Prize Share  =  Weighted Score / SUM of  all Weighted Scores
 - Prize Payout  =  Prize Share  * Total Prize Reward
 
