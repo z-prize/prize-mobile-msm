@@ -34,7 +34,7 @@ $$Q=\sum^n_{i=1} k_i*P_i$$
 
 ### Hardware & Benchmarks
 
--   All submissions will be tested on the [Samsung Galaxy A13 5G](https://www.devicespecifications.com/en/model/46da57d2) ([SoC MediaTek Dimensity 700 (MT6833)](https://www.mediatek.com/products/smartphones-2/dimensity-700)).
+-   All submissions will be tested on the [Samsung Galaxy A13 5G](https://www.devicespecifications.com/en/model/46da57d2) (Model SM-A136ULGDXAA with [SoC MediaTek Dimensity 700 (MT6833)](https://www.mediatek.com/products/smartphones-2/dimensity-700)).
 -   The baseline will be the Arkworks MSM implementation over BLS12-377 G1. Submissions must beat this baseline by at least 10% in order to be eligible for the prize.
 -   The baseline Android application including a [test harness] is provided, and may be used by competitors as the basis for their submission. Competitors may create their own application and test harness.
 
