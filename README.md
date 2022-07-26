@@ -75,8 +75,8 @@ October 1 - Final submission due
 
 ### Mid-competition Submission
 
-The mid-competition submission give an opportunity for competitors to confirm they're submission
-meets all the requirements and get a score according the official judging procedure. Competitors
+The mid-competition submission gives an opportunity for competitors to confirm they're submission
+meets all the requirements and get a score according to the official judging procedure. Competitors
 are not required to submit their work for the mid-competition submission.
 
 By August 4th (23:59 GMT), competitors may submit a working version of their final submission. If
@@ -89,7 +89,7 @@ Submissions do not need to be open-sourced for the mid-competition submission, b
 does need to be shared with the judging team, who will compile the application from source following
 the same procedure as will be used for the final submission.
 
-For the submission, please send and email to the judging team with the source code, build instructions,
+For the submission, please send an email to the judging team with the source code, build instructions,
 and documentation of optimization techniques used. Sharing a git repository endpoint, or an
 archive (e.g. `.tar.gz` or `.zip`) are two acceptable options for sharing source code and documentation.
 Please include your team name with the submission. Once your submission has been evaluated, the judging
