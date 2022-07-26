@@ -79,15 +79,35 @@ The mid-competition submission give an opportunity for competitors to confirm th
 meets all the requirements and get a score according the official judging procedure. Competitors
 are not required to submit their work for the mid-competition submission.
 
-By July 25th, competitors may submit a working version of their final submission. If they do, the
-judging team will give it a look to ensure it fulfills all the constraints. If so, they will run the
-submission using the same benchmarking procedure that will be used for judging, as outlined below,
-and report the result. If there are any issues, the judging team will work to resolve them with the
-competitor.
+By August 4th (23:59 GMT), competitors may submit a working version of their final submission. If
+they do, the judging team will evaluate it to ensure it fulfills all the constraints. If so, they will
+run the submission using the same benchmarking procedure that will be used for judging the final
+submissions, as outlined below, and report the result. If there are any issues, the judging team will
+work to resolve them with the competitor.
 
 Submissions do not need to be open-sourced for the mid-competition submission, but the source code
 does need to be shared with the judging team, who will compile the application from source following
 the same procedure as will be used for the final submission.
+
+For the submission, please send and email to the judging team with the source code, build instructions,
+and documentation of optimization techniques used. Sharing a git repository endpoint, or an
+archive (e.g. `.tar.gz` or `.zip`) are two acceptable options for sharing source code and documentation.
+Please include your team name with the submission. Once your submission has been evaluated, the judging
+team will respond with any concerns related to constraints, and with detailed performance numbers.
+
+After the submissions are evaluated, the sponsors and judging team may share preliminary rankings, and
+rough overall performance numbers in a blog post. If you would like to opt out of having your team information
+included please let us know in the email when you send in your mid-competition submission.
+
+#### Judging team
+
+Victor Graf:
+ * Email: victor.graf@clabs.co
+ * GitHub: nategraf
+
+Michael Straka:
+ * Email: michael.straka@clabs.co
+ * GitHub: mstraka100
 
 ## Judging
 
