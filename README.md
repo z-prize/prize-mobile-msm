@@ -115,6 +115,10 @@ Submissions will be analyzed for correctness, performance, and stability.
 
 All submissions are required to be open-sourced. The judging team will review the source code, and will build the executable to be judged from this source code according to the instructions provided in the submission documentation. Note that if your solution requires particular build flags or a particular compiler version, it should be referenced in the build documentation.
 
+### Functionality
+
+To be suitable for the judging process, each app should copy as closely as possible the behavior of the provided test harness. In particular, its input and output behavior should be identical. The app should be able to take in two files as input: one file containing a list of n scalar vectors, one per line, and another file containing a list of n curve point vectors, one per line, where the i-th scalar vector is the same length as the i-th curve point vector. The app should sequentially perform n separate MSM instances, one per vector, and output two files. One file should contain the n output curve elements, one line per MSM instance. The other should contain the n wall-clock times taken to execute the MSM instances, one per line, in addition to one more line containing the mean time across all n previous times. 
+
 ### Correctness
 
 A collection of static test vectors will be provided as a file, and the submitted application should include functionality to load and run the test vectors as a basic correctness test. Test vectors will include instances of various sizes and some important edge cases. The provided test harness includes this functionality and may be used as a reference. The judges will validate that these test vectors are correctly included and will validate the results.
@@ -131,7 +135,7 @@ A number of trials will be conducted until a stable Mean Latency is confidently 
 
 The provided test harness template includes an implementation for the benchmarking procedure described above, and should be used by competitors as a reference.
 
-All trials for the final judging will be conducted on a single target device, at full charge, plugged in, and placed in airplane mode. All reasonable efforts will be made to ensure a consistent judging environment for all submissions.
+All trials for the final judging will be conducted on a single target device, at full charge, in airplane mode, and placed in a temperature controlled environment. All reasonable efforts will be made to ensure a consistent judging environment for all submissions.
 
 ## Prize Allocation
 
