@@ -99,6 +99,33 @@ After the submissions are evaluated, the sponsors and judging team may share pre
 rough overall performance numbers in a blog post. If you would like to opt out of having your team information
 included please let us know in the email when you send in your mid-competition submission.
 
+### Final Submission
+
+The final submission of the application is due by October 1st (23:59 GMT).
+
+The final submission must meet all the constraints listed above, including that the application be
+buildable from source and installable as an app on the target device. If any constraints are not met,
+the submission will not be judged, and will not be eligible to win any prizes. As a result, it is
+**highly recommended** that teams send a version of the submission to the judging team at least 3
+days in advance of the deadline so there is time to inform the team of any constraints that are not
+met (e.g. that the application does not build with the given instructions). After the deadline,
+absolutely no modification can be made that could reasonable effect the benchmarked performance. Any
+alterations to auxiliary constraints (e.g. licensing) will only be allowed if it does not effect the
+fairness of the competition, at the discretion of the judging team.
+
+For the submission, please send an email to the judging team with the source code, build instructions,
+and documentation of optimization techniques used. Sharing a git repository endpoint, or an
+archive (e.g. `.tar.gz` or `.zip`) are two acceptable options for sharing source code and documentation.
+Please include your team name with the submission. Once your submission has been evaluated, the judging
+team will respond with any concerns related to constraints, and with detailed performance numbers.
+
+The judging team will evaluate all received submissions that meet the constraints. The judging team
+will communicate with the individual teams to inform them of their submission's evaluated
+performance and give an opportunity to raise any concerns (e.g. if the evaluated performance is far
+out of line with the teams own benchmarking). Once all submissions have been evaluated, and any
+concerns about the evaluated performance numbers are resolved, the sponsorship team will announce
+the results!
+
 #### Judging team
 
 Victor Graf:
@@ -171,14 +198,16 @@ Finalized Rank Multipliers will be as follows:
 * 3x for 3rd place
 * 0x for 4th place and below
 
+Following the end of the competition, the sponsorship team will reach out to winning teams to
+arrange for them to receive their prize.
+
 ## Notes
 
-All submission code must be open-sourced at the time of submission. Code and documentation must be dual-licensed under both the MIT and Apache-2.0 licenses.
+All submission code must be open-sourced at the deadline for final submission (October 1st). Code and documentation must be dual-licensed under both the MIT and Apache-2.0 licenses.
 
 ## Questions
 
 If there are any questions about this prize, please contact victor@clabs.co
-
 
 ### Hardware & Benchmarks Rationale
 
