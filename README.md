@@ -109,8 +109,8 @@ the submission will not be judged, and will not be eligible to win any prizes. A
 **highly recommended** that teams send a version of the submission to the judging team at least 3
 days in advance of the deadline so there is time to inform the team of any constraints that are not
 met (e.g. that the application does not build with the given instructions). After the deadline,
-absolutely no modification can be made that could reasonable effect the benchmarked performance. Any
-alterations to auxiliary constraints (e.g. licensing) will only be allowed if it does not effect the
+absolutely no modification can be made that could reasonably affect the benchmarked performance. Any
+alterations to auxiliary constraints (e.g. licensing) will only be allowed if it does not affect the
 fairness of the competition, at the discretion of the judging team.
 
 For the submission, please send an email to the judging team with the source code, build instructions,
