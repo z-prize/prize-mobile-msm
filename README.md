@@ -2,9 +2,9 @@
 
 
 
-Prize Sponsor: Celo
+Prize Sponsor: [Ocelot](https://ocelotlabs.xyz/)
 
-Prize Architect: Celo
+Prize Architect: [cLabs](https://clabs.co/)
 
 ## Prize Description
 
